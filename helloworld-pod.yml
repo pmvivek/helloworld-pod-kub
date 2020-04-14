@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: pod
+metadata: 
+  name: helloworld-app-pod
+  labels:
+    name: helloworld-app-pod
+    app:  helloworld-app
+spec:
+  containers: 
+    - name: helloworld-app
+      image:  pmvivek/microservices:helloworld
+      ports:
+        - containerPort:  8080
