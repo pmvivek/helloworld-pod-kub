@@ -74,3 +74,5 @@ GCP account access ( open a free account)
            5.4.2. In GCP terminal , navigate to the folder where helloworld-service-def.yml exists &  run the below command to create a service.
 
            		kubectl apply -f helloworld-service-def.yml
+			
+	with Public IP from GCP console, App should be accessible .
