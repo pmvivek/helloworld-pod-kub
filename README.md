@@ -76,3 +76,5 @@ GCP account access ( open a free account)
            		kubectl apply -f helloworld-service-def.yml
 			
 	with Public IP from GCP console, App should be accessible .
+	
+	Note: the above can also be done in different ways, such as implicit commands with fewer steps.
